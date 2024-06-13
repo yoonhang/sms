@@ -45,6 +45,11 @@ public class SmsProvider {
 
         String statusCode = response.getStatusCode();
         boolean result = statusCode.equals("2000");
+        
+        // 로그 출력으로 전송 결과를 확인
+        System.out.println("SMS 전송 상태 코드: " + statusCode);
+        System.out.println("SMS 전송 성공 여부: " + result);
+        
 
         return result;
     }
