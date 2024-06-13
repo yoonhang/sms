@@ -1,13 +1,13 @@
 package com.example.demo.provider;
 
-import org.glassfish.jaxb.runtime.v2.runtime.unmarshaller.XsiNilLoader.Single;
+//import org.glassfish.jaxb.runtime.v2.runtime.unmarshaller.XsiNilLoader.Single;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 
 import net.nurigo.sdk.NurigoApp;
 import net.nurigo.sdk.message.model.Message;
 import net.nurigo.sdk.message.request.SingleMessageSendingRequest;
-import net.nurigo.sdk.message.reponse.SingleMessageSentRequest;
+import net.nurigo.sdk.message.response.SingleMessageSentResponse;
 import net.nurigo.sdk.message.service.DefaultMessageService;
 
 @Component

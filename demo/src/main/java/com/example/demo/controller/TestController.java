@@ -22,6 +22,7 @@ public class TestController {
     public ResponseEntity<String> sendSms(
             @PathVariable("to") String to) {
         ResponseEntity<String> response = testService.sendSms(to);
+
         return response;
     }
 
